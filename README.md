@@ -5,7 +5,9 @@ This project has been created as a coding test for a job application at JD Sport
 ## Summary and Technical Details
 
 1.- The page has been created using **Bootstrap 4** and **jQuery** as the main technologies in its development
+
 2.- The carousel was created using an external plugin called **Slick**
+
 3.- The **Mega Menu Demo** included on this page was coded by myself from the scratch, no plugin was used for this feature
 
 
