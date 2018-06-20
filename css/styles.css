@@ -188,6 +188,17 @@ div#social-footer {
     font-size: 0.8em;
 }
 
+#searchbox {margin-top:4px;}
+
+#searchbox input[type="text"] {
+	width: 80%;
+    padding: 14px;
+    margin: -8px 0;
+    float: left;
+    border: none;
+    font-size: 0.8em;
+}
+
 #news input[type="submit"] {
     width: 20%;
     float: left;
@@ -198,3 +209,51 @@ div#social-footer {
     background: #43D5B0;
     color: #fff;
 }
+
+#searchbox input[type="submit"] {
+    width: 20%;
+    float: left;
+    border: none;
+    padding: 13px 10px;
+    margin: -8px 0px;
+    font-size: 0.9em;
+    background: #43D5B0;
+    color: #fff;
+}
+
+#megamenu {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0;
+    position: absolute;
+    background: #111;
+    color: #fff;
+	display:none;
+}
+
+#megamenu h4 {
+    font-size: 1em;
+	color:#ff6600;
+}
+
+#megamenu ul {
+    padding: 0;
+    list-style: none;
+}
+
+#megamenu ul li a {
+    color:#eee;
+    font-size:1em;
+	transition:all 0.3s ease-in-out;
+	text-decoration:none;
+}
+
+#megamenu ul li a:hover {
+	color:#ff6600;
+}
+
+.mega-banner {
+	width:100%;
+}
+

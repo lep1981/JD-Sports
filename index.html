@@ -33,13 +33,15 @@
 	<div id="header">	
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<div class="col-sm-4">
-						<img src="https://www.jdsports.co.uk/skins/jdsports-desktop/public/img/logos/logo-large-en.png" alt="JD Sports Logo" />
-					</div>
+				<div class="col-sm-7">
+					<img src="https://www.jdsports.co.uk/skins/jdsports-desktop/public/img/logos/logo-large-en.png" alt="JD Sports Logo" />
+				</div>
 
-					<div class="col-sm-8">
-					</div>
+				<div class="col-sm-5">
+					<form id="searchbox">
+						<input type="text" placeholder="Search products" />
+						<input type="submit" value="Search" />
+					</form>
 				</div>
 			</div>	
 		</div>
@@ -48,7 +50,7 @@
 	<div id="menu" class="row">
 		<div class="col-md-12">
 			<ul>
-				<li><a href="#">Latest</a></li>
+				<li><a href="#" id="latest">Latest</a></li>
 				<li><a href="#">Men</a></li>
 				<li><a href="#">Women</a></li>
 				<li><a href="#">Kids</a></li>
@@ -59,6 +61,52 @@
 				<li><a href="#">OFFERS</a></li>
 				<li><a href="#">Brands</a></li>
 			</ul>
+		</div>
+	</div>
+	
+	<div id="megamenu" data-id="latest">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<h4>Latest Men's</h4>
+					<ul>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Footwear</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Seasonal</a></li>
+						<li><a href="#">Running</a></li>
+						<li><a href="#">Performance</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-2">
+					<h4>Latest Women's</h4>
+					<ul>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Footwear</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Seasonal</a></li>
+						<li><a href="#">Running</a></li>
+						<li><a href="#">Performance</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-2">
+					<h4>Latest Kids'</h4>
+					<ul>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Footwear</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Football</a></li>
+						<li><a href="#">Back to School</a></li>
+						<li><a href="#">Offers</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-6">
+					<img class="mega-banner" src="img/menu-banner.jpg" alt="" />
+				</div>
+			</div>
 		</div>
 	</div>
 	

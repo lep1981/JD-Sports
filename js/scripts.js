@@ -47,4 +47,10 @@ jQuery(document).ready(function(){
 		}
 	});
 	
+	
+	//MEGAMENU DEMO
+	$('#latest,div[data-id="latest"]').on('mouseenter mouseleave', function(){
+		$('div[data-id="latest"]').stop().slideToggle();
+	});
+	
 });
